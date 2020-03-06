@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>presen</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="ed.css"/>
+    <link rel="stylesheet" href="google_font">
+    <link rel="stylesheet" href="https://bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    </head>
+    <center> <h1>Fiche de renseignement Appprenant</h1> <br> <br> <br> </center>
+    
+    <form  method="post" action="" >
+            <div class="container">
+                    <img src="photo01.jpg" alt="Bootstrap" class="img-circle"> <br> <br>
+     
+                    <form>
+                        <div class="form-row">
+                          <div class="form-group col-md-6">
+                            <label for="inputEmail4">Nom</label>
+                            <input type="text" class="form-control" id="inputnom" name="nom">
+                          </div>
+                          <div class="form-group col-md-6">
+                            <label for="inputPassword4">Prenom</label>
+                            <input type="text" class="form-control" id="inputprenom" name="prénom">
+                          </div>
+                        </div>
+                        
+                          <div class="form-row">
+                                <label for="inputPassword4">Genre</label>
+                                <!-- <label class="mr-sm-2 sr-only" for="inlineFormCustomSelect">Genre</label> -->
+                                <select class="custom-select mr-sm-2" id="inlineFormCustomSelect" name="genre">
+                                  <option selected>choisir</option>
+                                  <option value="1">Homme</option>
+                                  <option value="2">Femme</option>
+                                  <option value="3">Autre</option>
+                                </select>
+                            </div>
+                            <div class="form-row">
+                                    <div class="form-group col-md-6">
+                                      <label for="inputEmail4">Date de naissance</label>
+                                      <input type="text" class="form-control" id="inputdate_de_naissance" name="date de naissance">
+                                    </div>
+                          <div class="form-group col-md-6">
+                            <label for="inputEmail4">Ville d'origine</label>
+                            <input type="text" class="form-control" id="inputville" name="ville d'origine">
+                          </div>
+                          
+                        </div>
+                        <div class="form-row">          
+                          <div class="form-group col-md-6">
+                            <label for="inputPassword4">Formation suivie</label>
+                            <input type="text" class="form-control" id="inputprenom" name="formation suivie">
+                            </div>
+                            <div class="form-group col-md-6">
+                                    <label for="inputEmail4">Etablissement précédent</label>
+                                    <input type="text" class="form-control" id="inputville" name="etablissement précedent">
+                                  </div>
+                          </div>
+                          
+                          <!-- <div class="form-group col-md-6">
+                            <label for="inputPassword4">Situation Matrimoniale</label>
+                            <input type="text" class="form-control" id="inputprenom">
+                          </div> -->
+                          
+                        
+                        <div class="form-row">
+                          <div class="form-group col-md-6">
+                            <label for="inputCity">Telephone</label>
+                            <input type="number" class="form-control" id="inputtext" name="telephone">
+                          </div>
+                        <div class="form-group col-md-6">
+                          <label for="inputCity">Email</label>
+                          <input type="email" class="form-control" id="inputtext" name="email">
+                        </div>
+                          </div>
+                          
+                            <form>
+                                    <div class="form-group">
+                                      <label for="formGroupExampleInput2">Projet Personnel</label>
+                                      <input type="text" class="form-control" id="formGroupExampleInput2" name="projet personnel" placeholder="projet personnel">
+                                    </div>
+                            </form>
+                <center><h1> Tuteur</h1>
+                    <form>
+                            <div class="form-row">
+                              <div class="form-group col-md-6">
+                                <label for="inputEmail4">Nom</label>
+                                <input type="text" class="form-control" id="inputnom" name="nom tuteur">
+                              </div>
+                              <div class="form-group col-md-6">
+                                <label for="inputPassword4">Prénom</label>
+                                <input type="text" class="form-control" id="inputprenom" name="prenom tuteur">
+                              </div>
+                            </div>
+                            <div class="form-row">
+                                    <div class="form-group col-md-6">
+                                      <label for="inputCity">Téléphone</label>
+                                      <input type="number" class="form-control" id="inputtext" name="telephone tuteur" >
+                                    </div>
+                                  <div class="form-group col-md-6">
+                                    <label for="inputCity">Profession</label>
+                                    <input type="email" class="form-control" id="inputtext" name="profession">
+                                  </div>
+                                    </div>
+                                    <i class="fad fa-print"></i>                            
+    
+    
+    <script>
+    // Example starter JavaScript for disabling form submissions if there are invalid fields
+    (function() {
+      'use strict';
+      window.addEventListener('load', function() {
+        // Fetch all the forms we want to apply custom Bootstrap validation styles to
+        var forms = document.getElementsByClassName('needs-validation');
+        // Loop over them and prevent submission
+        var validation = Array.prototype.filter.call(forms, function(form) {
+          form.addEventListener('submit', function(event) {
+            if (form.checkValidity() === false) {
+              event.preventDefault();
+              event.stopPropagation();
+            }
+            form.classList.add('was-validated');
+          }, false);
+        });
+      }, false);
+    })();
+    </script>
+
+
+
+               
+                                              
+</body>
+</html>

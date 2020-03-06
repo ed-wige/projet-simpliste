@@ -1,0 +1,7 @@
+/* @font-face {
+    font-family: "My Font Name";
+    src: url("assets/myfontname.ttf") format("truetype");
+  } */
+  body{
+      font-family: 'Zilla Slab', serif;
+  }
